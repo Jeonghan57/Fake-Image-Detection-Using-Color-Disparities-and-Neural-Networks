@@ -134,6 +134,6 @@ def Evaluate_Networks(Net):
     
     
 
-net = nn.Linear(225, 2)
+net = nn.Linear(param, 2)
 # train(net , 64)
 Evaluate_Networks(net)
