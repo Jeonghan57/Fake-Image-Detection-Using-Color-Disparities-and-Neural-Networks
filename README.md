@@ -1,14 +1,13 @@
 # Fake Image Detection Using Color Disparities and Neural Networks
 
 ![색상 차이와 신경망을 이용한 위조 이미지 검출(수정)](https://user-images.githubusercontent.com/77098071/147436006-9b782228-0c04-4d70-9320-72f1fade6c68.png)
-
-
-
+   
+   
 __IVC(Image & Vision Computing) Lab / Pukyong Nat'l Univ Electronical Engineering / Busan, Republic of Korea__   
 Jeonghan Lee, Hanhoon Park(Major Professor)
 
-Paper(Korean) : *Attach the pdf file.*   
-Video(Korean) : https://cafe.naver.com/ictpaperconf/272
+* Paper(Korean) : *Attach the pdf file.*   
+* Video(Korean) : https://cafe.naver.com/ictpaperconf/272
 
 
 Abstract : In the field of deep learning, generative adversarial network (GAN) is in the spotlight as a representative image generation model, and it has already reached a point where it is difficult to classifiy real and fake (i.e., GAN-generated) iamges with the naked eye. However, based on the generation principle of GAN, a previous method could classify real and fake images with high accuracy and robustness by extracting useful features using hand-crafted filters from their chromatic components. Inspired by the previous method, we also attempt to classify real and fake imges in chromatic domains. However, we use convolutional neural networks(CNN) to extract features from images. To be specific, we try to use the transfer learning with pre-trained CNN models. Also, we try to train the PeleeNet, a type of deep CNNs, with or without a pre-processing high pass filter. The CNN-based methods are compared with the previous method. For experiments, we prepared four image datasets consisting of images generated with different image contexts and different GAN models. Extensive experimental results showed that CNN-based methods are not accurate for those whose generation GAN model and contexts are differnet from the training images, unlike the previous method showed high classification accuracy. However, we found that the previous method could be further improved by using luminance components together with the chromatic components.
@@ -48,6 +47,7 @@ Abstract : In the field of deep learning, generative adversarial network (GAN) i
 [Tab 4] When generative model and image context of the train data and test data are different
 ![image](https://user-images.githubusercontent.com/77098071/147437858-127dd9e9-536b-4113-a10e-7f410ea142ba.png)
 
+## Conclusion
  * [Tab 1]에서 보는 것처럼, 학습과 테스트 데이터의 영상 생성 모델 및 영상 컨택스트가 같으면 모든 방법이 높은 정확도로 위조 영상을 검출
  * 일부 AlexNet이나 VGG를 사용한 전이학습과 RGB 색공간에서 Li 방법을 사용하여 영상 특징을 추출하는 경우 상대적으로 정확도가 낮음
  * [Tab 2], [Tab 3], [Tab 4]에서 보는 것처럼, 학습과 테스트 데이터의 영상 생성 모델 또는 영상 컨택스트가 다르면, 일부 영상 생성 모델 차이에 대해서는 전처리 필터로 HPF를 사용하는 PeleeNet이 위조 영상 검출에 성공, but 대부분의 CNN을 사용하여 영상 특징을 추출하는 방법은 위조 영상 검출에 실패
