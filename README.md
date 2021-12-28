@@ -3,7 +3,7 @@
 ![색상 차이와 신경망을 이용한 위조 이미지 검출(수정)](https://user-images.githubusercontent.com/77098071/147436006-9b782228-0c04-4d70-9320-72f1fade6c68.png)
    
    
-__IVC(Image & Vision Computing) Lab / Pukyong Nat'l Univ Electronical Engineering / Busan, Republic of Korea__   
+__IVC(Image & Vision Computing) Lab / Pukyong Nat'l Univ Electronic Engineering / Busan, Republic of Korea__   
 Jeonghan Lee, Hanhoon Park(Major Professor)
 
 * Paper(Korean) : *Attach the pdf file.*   
