@@ -55,6 +55,11 @@ Abstract : In the field of deep learning, generative adversarial network (GAN) i
  * __가장 의미있는 결과로,__ 기존 연구에서는 H, S, Cb, Cr 4개의 color 채널을 사용하는 것이 가장 효과적이라고 했으나, V나 Y 채널을 추가적으로 사용할 경우 정확도가 향상
 -> H,S,V,Y,Cb,Cr 6개의 채널을 함께 사용하는 것이 가장 높은 정확도로 위조 영상을 검출.
   
+  
+__This content is supported by these departments below :__
+* 이 성과는 '정부(과학기술정부통신부)'의 재원으로 '한국연구재단'의 지원을 받아 수행된 연구임(No. 2021R1F1A1045749).
+
+<br/>
 
 __This content is inspired by the documents below :__
 1. H. Li, B. Li, S. Tan, and J. Huang, "Identification of deep network generated images using disparities in color components," Signal Processing, vol. 174, 2020.
