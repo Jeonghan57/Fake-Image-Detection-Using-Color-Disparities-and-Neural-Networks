@@ -6,7 +6,7 @@
 __IVC(Image & Vision Computing) Lab / Pukyong Nat'l Univ Electronic Engineering / Busan, Republic of Korea__   
 Jeonghan Lee, Hanhoon Park(Major Professor)
 
-* Paper(Korean) : *Attach the pdf file*   
+* Paper(Korean) : "Fake Image Detection Using Color Disparities and Neural Networks," IEMEK ICT college student thesis contest, pp.76-79, 2021. (*Attach the pdf file*)   
 * Video(Korean) : https://cafe.naver.com/ictpaperconf/272
 
 
